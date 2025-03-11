@@ -4,3 +4,9 @@ plugins {
 }
 
 rootProject.name = "gradle-build-scan-quickstart"
+
+develocity {
+    buildScan {
+        tag("backend-engineer")
+    }
+}

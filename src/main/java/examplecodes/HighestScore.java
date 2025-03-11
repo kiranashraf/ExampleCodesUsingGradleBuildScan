@@ -1,11 +1,11 @@
-package highestscore;
+package examplecodes;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
 public class HighestScore {
-    public int highestScore(ArrayList<ArrayList<String>> A) {
+    public static int highestScore(ArrayList<ArrayList<String>> A) {
         HashMap<String, List<Integer>> map = new HashMap<>();
         for (ArrayList<String> StudentsMarks : A) {
             String student = StudentsMarks.get(0);

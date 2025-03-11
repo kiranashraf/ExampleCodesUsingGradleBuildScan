@@ -1,4 +1,4 @@
-package highestscore;
+package examplecodes;
 
 public class StringJoin {
 
